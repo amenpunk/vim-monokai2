@@ -120,7 +120,12 @@ hi cssClassName                       ctermfg=148     ctermbg=NONE    cterm=NONE
 hi cssValueLength                     ctermfg=141     ctermbg=NONE    cterm=NONE          guifg=#ae81ff     guibg=NONE        gui=NONE
 hi cssCommonAttr                      ctermfg=81      ctermbg=NONE    cterm=NONE          guifg=#66d9ef     guibg=NONE        gui=NONE
 hi cssBraces                          ctermfg=NONE    ctermbg=NONE    cterm=NONE          guifg=NONE        guibg=NONE        gui=NONE
-
+hi NERDTreeCWD                        ctermfg=233     ctermbg=233     cterm=NONE          guifg=#f8f8f2     guibg=#171717     gui=NONE
+hi NERDTreeDirSlash                   ctermfg=233     ctermbg=233     cterm=NONE          guifg=#f8f8f2     guibg=#171717     gui=NONE
+hi TabLine                            ctermfg=238     ctermbg=233     cterm=NONE          guifg=#f8f8f2     guibg=#171717     gui=NONE
+hi TabLineFill                        ctermfg=233     ctermbg=233     cterm=NONE          guifg=#f8f8f2     guibg=#171717     gui=NONE
+hi TabLineSel                         ctermfg=208     ctermbg=234     cterm=NONE          guifg=#f8f8f2     guibg=#171717     gui=NONE
+hi TermCursorNC                       ctermfg=233     ctermbg=233     cterm=NONE          guifg=#f8f8f2     guibg=#171717     gui=NONE
 
 " Must be at the end, because of ctermbg=234 bug.
 " https://groups.google.com/forum/#!msg/vim_dev/afPqwAFNdrU/nqh6tOM87QUJ
